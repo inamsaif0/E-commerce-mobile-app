@@ -84,7 +84,7 @@ $ npm install
 - Run the following command in your terminal.
 
 ```sh
-$ react-native run-android
+$ react-native run-androidcd
 ```
 
 ## Rename Project

@@ -218,10 +218,10 @@ android {
             keyPassword 'android'
         }
           release {
-            storeFile file('your_key_name.keystore')
-            storePassword 'musabbiha'
-            keyAlias 'your_key_name'
-            keyPassword 'musabbiha'
+            storeFile file('my-upload-key.keystore')
+            storePassword '12345678'
+            keyAlias 'my-key-alias'
+            keyPassword '12345678'
         }
     }
     buildTypes {
@@ -261,6 +261,8 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+
+    implementation project(':react-native-gesture-handler')
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
         exclude group:'com.facebook.fbjni'

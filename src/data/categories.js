@@ -1,22 +1,14 @@
 export const categories = [
   {
     id: 1,
-    name: 'Chair',
+    name: 'T-shirts',
   },
   {
     id: 2,
-    name: 'Lamp',
+    name: 'Jeans',
   },
   {
     id: 3,
-    name: 'Vase',
-  },
-  {
-    id: 4,
-    name: 'Shelf',
-  },
-  {
-    id: 5,
-    name: 'Table',
+    name: 'Dresses',
   },
 ];

@@ -1,26 +1,38 @@
 export const wishlist = [
   {
-    id: 10,
-    category: 3,
-    name: 'Slim White Ceramic Vase',
+    id: 1,
+    category: 'T-shirts',
+    name: 'Basic Cotton T-shirt',
     imgs: [
-      'https://i.etsystatic.com/8385233/r/il/4ce18b/2462325276/il_fullxfull.2462325276_9xs1.jpg',
-      'https://m.media-amazon.com/images/I/51meWMr69uL._AC_SX466_.jpg',
-      'https://cdn.shopify.com/s/files/1/0013/3110/1807/products/product-image-364677750_1024x1024@2x.jpg?v=1555600046',
+      'https://images.pexels.com/photos/1018911/pexels-photo-1018911.jpeg',
+      'https://images.pexels.com/photos/1018911/pexels-photo-1018911.jpeg',
     ],
-    price: 10.99,
+    price: 19.99,
     description:
-      'Non enim ipsum eu anim nulla dolor est dolor in laborum est. Quis adipisicing est ipsum ad ullamco consectetur eu occaecat do exercitation Lorem pariatur ut eiusmod. Aliquip commodo ad cupidatat et eiusmod ut amet proident id magna voluptate.',
+      'A classic basic cotton T-shirt suitable for everyday casual wear. Made from high-quality cotton material for comfort.',
   },
   {
-    id: 12,
-    category: 3,
-    name: 'Nordic Motif Beige Flower Vase',
+    id: 2,
+    category: 'T-shirts',
+    name: 'Graphic Print T-shirt',
     imgs: [
-      'https://cdn.shopify.com/s/files/1/1306/4195/products/crok-chok-vases-nordic-motif-aesthetic-beige-flower-vase-33480502116518.jpg?v=1652429631',
+      'https://images.pexels.com/photos/1018911/pexels-photo-1018911.jpeg',
+      'https://images.pexels.com/photos/1018911/pexels-photo-1018911.jpeg',
     ],
-    price: 25.0,
+    price: 24.99,
     description:
-      'Ea minim cupidatat est elit eiusmod culpa velit eiusmod officia. Sit sint officia adipisicing laborum cupidatat anim officia non velit excepteur. Et occaecat ut exercitation reprehenderit Lorem ullamco do adipisicing. Officia magna quis labore elit. Tempor officia aliquip est quis. Aute mollit laboris mollit et voluptate veniam anim sunt ut velit.',
+      'Express your style with this graphic print T-shirt. Features a unique design on the front and is made from soft and breathable fabric.',
+  },
+  {
+    id: 3,
+    category: 'Jeans',
+    name: 'Slim Fit Denim Jeans',
+    imgs: [
+      'https://images.pexels.com/photos/1018911/pexels-photo-1018911.jpeg',
+      'https://images.pexels.com/photos/1018911/pexels-photo-1018911.jpeg',
+    ],
+    price: 39.99,
+    description:
+      'Stay in style with these slim fit denim jeans. Comfortable and durable, perfect for a casual yet trendy look.',
   },
 ];
